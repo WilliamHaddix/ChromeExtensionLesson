@@ -1,1 +1,1 @@
-alert("It's Working");
+console.log("appOn is working");

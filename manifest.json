@@ -18,5 +18,9 @@
     "host_permissions": [
         "https://*/*",
         "http://*/*"
-    ]
+    ],
+    "web_accessible_resources": [{
+        "resources": ["appOn.js", "appOff.js"],
+        "matches": ["https://*/*", "http://*/*"]
+    }]
 }

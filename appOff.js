@@ -1,1 +1,1 @@
-alert("It's also working");
+console.log("appOff is working");
