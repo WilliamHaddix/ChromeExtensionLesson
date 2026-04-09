@@ -4,18 +4,18 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "background": {
-        "scripts": [
-            "popup.js"
-        ],
-    "persistent": true
+        "service_worker": "popup.js"
     },
-    "browser_action": {
+    "action": {
         "default_title": "Appearance",
         "default_popup": "popup.html"
     },
     "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
         "https://*/*",
-        "http://*/*",
-        "tabs"
+        "http://*/*"
     ]
 }
