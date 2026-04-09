@@ -2,7 +2,7 @@
     "name": "Appearance",
     "description": "Switch between light and dark mode",
     "version": "1.0.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "background": {
         "scripts": [
             "popup.js"
