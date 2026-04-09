@@ -7,12 +7,12 @@ button.addEventListener("click", ()=>{
     if(!buttonOn)
     {
         buttonOn = true;
-        circle.style.animation = "moveCircleRight 1s forward";
-        button.style.animation = "transformToYellow 1s forward";
+        circle.style.animation = "moveCircleRight 1s forwards";
+        button.style.animation = "transformToYellow 1s forwards";
     }
     else{
         buttonOn = false;
-        circle.style.animation = "moveCircleLeft 1s forward";
-        button.style.animation = "transformToBlue 1s forward";
+        circle.style.animation = "moveCircleLeft 1s forwards";
+        button.style.animation = "transformToBlue 1s forwards";
     }
 });
